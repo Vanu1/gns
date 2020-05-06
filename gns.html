@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>gns iitk</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="gnsdes.css">
+        <link href="https://fonts.googleapis.com/css2?family=Galada&family=Modak&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <style>
+            .fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 15px;
+	border-radius: 50%;
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+  /* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: sticky;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <h1>Games & Sports Council</h1>
+            <nav>
+                
+                    <a href="#" class="activate">Home</a>
+                    <a href="#">Archieves</a>
+                    <a href="#">Udghosh</a>
+                    <a href="#">Hall Of Fame</a>
+                    
+                
+            
+                
+            
+    
+            </nav>
+
+        </header>
+        <!-- <nav class="menui">
+            <ul class="active">
+                <li class="current-item"><a href="#">Home</a></li>
+                <li><a href="#">Archieves</a></li>
+                <li><a href="#">Udghosh</a></li>
+                <li><a href="#">Hall Of Fame</a></li>
+                
+            </ul>
+        
+            
+        
+
+        </nav> -->
+        <section class=head>
+            <h2>Gallery</h2>
+            <hr style="width: 10% ;margin:0 auto; background-color:rgb(255, 69, 0);color:orangered;">
+        </section >
+        <section class="events" id="gall">
+            <div class="slideshow-container" style="margin-bottom: 20px;">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="https://pbs.twimg.com/media/DSnJ4AXWsAA-NGz.jpg" style="width:100%">
+                  <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="https://voxiitk.com/wp-content/uploads/2019/01/18121271_1306953932715811_1495134011142958167_o-760x490.jpg" style="width:100%">
+                  <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="https://voxiitk.com/wp-content/uploads/2014/10/10592931_706335209444356_2432147681952388450_n.jpg" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+        </section>
+        <section class="head">
+        <h2>Latest events</h2>
+        <hr style="width: 10% ;margin:0 auto; background-color:rgb(255, 69, 0);color:orangered;">
+        </section>
+        <section class="events">
+            
+            <div class="eve">
+                <h3>
+                    events 1
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum blanditiis necessitatibus culpa a at ad illo quas officiis assumenda, sit quae, possimus eligendi fugit. Obcaecati beatae neque commodi labore et minus voluptas quos?
+                </p>
+            </div>
+            <div class="eve">
+                <h3>
+                    events 2
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum blanditiis necessitatibus culpa a at ad illo quas officiis assumenda, sit quae, possimus eligendi fugit. Obcaecati beatae neque commodi labore et minus voluptas quos?
+                </p>
+            </div>
+            <div class="eve">
+                <h3>
+                    events 3
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum blanditiis necessitatibus culpa a at ad illo quas officiis assumenda, sit quae, possimus eligendi fugit. Obcaecati beatae neque commodi labore et minus voluptas quos?
+                </p>
+            </div>
+        </section>
+        <!-- <section class="backcover">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0RBeI55eFeKFo8bOnMJOuMVFFCqCGAJ9u__c7Ye4of0jjnLsp&usqp=CAU" alt=backcover>
+
+        </section> -->
+        <section class="head">
+        <h2>Newsletter</h2>
+        
+        <hr style="width: 10% ;margin:0 auto; background-color:rgb(255, 69, 0);color:orangered;">
+        </section>
+        <section class="events">
+            
+            <div class="eve">
+                <h3>
+                    article 1
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum blanditiis necessitatibus culpa a at ad illo quas officiis assumenda, 
+                    sit quae, possimus eligendi fugit. Obcaecati beatae neque commodi labore et minus voluptas quos?<span id="dots">..</span>
+                    <span id="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nostrum. Suscipit sunt excepturi perspiciatis placeat similique ratione quas qui, rem rerum ullam temporibus alias, a laudantium dignissimos eveniet beatae dolorum?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste eius numquam corporis ipsum repellendus dolore, id illum eos aliquid libero provident quae vero esse, pariatur enim consequuntur aut sunt! Et!
+                    </span><br>
+                    <button onclick="toogle()" id="myBtn">Read more</button>
+                </p>
+            </div>
+            <div class="eve">
+                <h3>
+                    article 2
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum blanditiis necessitatibus culpa a at ad illo quas officiis assumenda, 
+                    sit quae, possimus eligendi fugit. Obcaecati beatae neque commodi labore et minus voluptas quos?<span id="dots1">..</span>
+                    <span id="more1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nostrum. Suscipit sunt excepturi perspiciatis placeat similique ratione quas qui, rem rerum ullam temporibus alias, a laudantium dignissimos eveniet beatae dolorum?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste eius numquam corporis ipsum repellendus dolore, id illum eos aliquid libero provident quae vero esse, pariatur enim consequuntur aut sunt! Et!
+                    </span><br>
+                    <button onclick="toogle1()" id="myBtn1">Read more</button>
+                </p>
+            </div>
+            <div class="eve">
+                <h3>
+                    article 3              
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum blanditiis necessitatibus culpa a at ad illo quas officiis assumenda, 
+                    sit quae, possimus eligendi fugit. Obcaecati beatae neque commodi labore et minus voluptas quos?<span id="dots2">..</span>
+                    <span id="more2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, nostrum. Suscipit sunt excepturi perspiciatis placeat similique ratione quas qui, rem rerum ullam temporibus alias, a laudantium dignissimos eveniet beatae dolorum?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste eius numquam corporis ipsum repellendus dolore, id illum eos aliquid libero provident quae vero esse, pariatur enim consequuntur aut sunt! Et!
+                    </span><br>
+                    <button onclick="toogle2()" id="myBtn2">Read more</button>
+                </p>
+            </div>
+        </section>
+      
+
+        <footer>
+            <nav class="foot">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </nav>
+
+            <div>
+                <h3>CONTACT US</h3>
+            </div>
+        </footer>
+        <script>
+            function toogle() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+
+            
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+              }
+
+            }
+            function toogle1(){
+                var dots1 = document.getElementById("dots1");
+              var moreText1 = document.getElementById("more1");
+              var btnText1 = document.getElementById("myBtn1");
+
+
+              if (dots1.style.display === "none") {
+                dots1.style.display = "inline";
+                btnText1.innerHTML = "Read more"; 
+                moreText1.style.display = "none";
+              } else {
+                dots1.style.display = "none";
+                btnText1.innerHTML = "Read less"; 
+                moreText1.style.display = "inline";
+              }
+
+            }
+            function toogle2() {
+                var dots2 = document.getElementById("dots2");
+              var moreText2 = document.getElementById("more2");
+              var btnText2 = document.getElementById("myBtn2");
+              if (dots2.style.display === "none") {
+                dots2.style.display = "inline";
+                btnText2.innerHTML = "Read more"; 
+                moreText2.style.display = "none";
+              } else {
+                dots2.style.display = "none";
+                btnText2.innerHTML = "Read less"; 
+                moreText2.style.display = "inline";
+              }
+                
+            }
+            var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+            </script>
+    </body>
+</html>

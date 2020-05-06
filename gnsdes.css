@@ -1,0 +1,297 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    
+    /* box-sizing: border-box; */
+
+	background: url(https://4kwallpaper.wiki/wp-content/uploads/2019/09/93190.jpg) no-repeat center center fixed ;
+	background-size: cover ;
+	/* overflow: hidden; */
+	height: 100%;
+}
+header{
+
+     /* margin: 0px !important; */
+ background: url(https://www.wallpaperbetter.com/wallpaper/762/276/922/stock-photos-basketball-s-1080P-wallpaper.jpg) no-repeat center center fixed;
+    
+   
+    
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-position: center; */
+    width:100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 500px;
+
+
+}
+header nav{
+	margin-top: 0px;
+	align-self: flex-end;
+	/* flex-basis: 100px; */
+	/* background-color: blanchedalmond; */
+	
+	 display:flex;
+
+	
+}
+/* ul{
+	width: 500px;
+	height: 50px;
+	z-index: 1;
+	
+	
+	padding: 0 auto;
+	background-color: black; 
+
+	
+}
+
+li{
+
+	text-decoration: none;
+	color: white;
+	margin-left: 30px;
+	padding-top: 15px;
+
+} */
+nav a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	border: 2px solid rgb(90, 100, 94);
+	border-radius: 5px;
+	margin-left: 15px;
+	/* padding:10px; */
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+nav a:hover{
+	border-radius: 50%;
+}
+nav a.activate{
+	background-color: lavender;
+	color:black;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    font-family: fantasy;
+    color: paleturquoise;
+    top: 50%;
+    font-size: 50px;
+    opacity: 0.95;
+	text-decoration-style: double;
+	align-self: center;
+    /* left: 50%; */
+    /* translate: (-50%,-50%); */
+}
+/* .menui{
+	background-color: lightslategray;
+	display:block;
+	width: 100%;
+	height: 100px;
+	align-items: center;
+} */
+.active{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+section.events{
+	 /* margin-top: 200px; */
+	margin-bottom: 500px;
+
+}
+section{
+	z-index: -1;
+	background-color:whitesmoke;
+	/* margin-top: 200px;
+	margin-bottom: 200px; */
+}
+
+
+.head{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: black;
+}
+.head h2{
+    /* margin-top: 70px; */
+    
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Galada', cursive;
+	color: orangered;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+
+.events{
+    /* margin-top: 50px; */
+	display: flex;
+	/* height: 400px; */
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ #gall{
+	display: block;
+	background-color: black;
+	/* height: 400px; */
+
+
+}
+.mySlides{
+	border: 5px groove orangered;
+	
+}
+/* .backcover{
+	display: block;
+	width: 100%;
+	height: 300px;
+	z-index: -1;
+}
+.backcover img{
+	display: block;
+	width: 100%;
+	height: 300px;
+	z-index: -1;
+	
+
+} */
+.eve{
+	width: 20%;
+	height: fit-content;
+
+}
+#more,#more1,#more2{
+	display: none;
+}
+.eve h3{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+	color: orangered;
+	font-size: 25px;
+
+}
+.eve p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+footer{
+	background-color: black;
+	background-size: cover;
+	height: 200px;
+	
+
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content:center ;
+	align-items: center;
+
+}
+/* .foot a{
+	color: rgb(248, 71, 7);
+	font-family:'Permanent Marker', cursive ;
+	font-size: 25px;
+	margin-left:30px;
+	margin-top: 0 auto;
+} */
+/* .fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  } */
+  
+footer h3{
+	color: orangered;
+	text-align: center;
+	font-variant: small-caps;
+	font-family: 'Shadows Into Light', cursive;
+
+}
+button {
+	width:80px;
+	margin:0 auto;
+	background-color: black;
+	color: chocolate;
+	font-family: 'Shadows Into Light', cursive;
+	border:  solid 3px;
+	border-radius: 10px;
+}
+

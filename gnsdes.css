@@ -41,6 +41,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 body{
     
     /* box-sizing: border-box; */
